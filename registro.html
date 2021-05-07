@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+     <!--Font awensome-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+     <!--Estilos-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/styles.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel='icon' type='image/svg' media='screen' href='./style/img/Logo.svg'>
+</head>
+<body class="imagen-fondo">
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="./index.html" class="navbar-brand">
+            <img src="./style/img/Logo.svg" class="imag-logo" alt="">&nbsp;&nbsp;&nbsp;The Four Elements 
+        </a>           
+        <!--Toggle Button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navOptions">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <!--Options-->
+       
+            <div class="collapse navbar-collapse" id="navOptions">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="./index.html">Inicio</a>
+                    <a class="nav-item nav-link" href="./nosotros.html">Nosotros </a>
+                    <a class="nav-item nav-link active" href="./registro.html">Regístrese</a>
+                    <a class="nav-item nav-link" href="./Iniciar_sesion.html">Iniciar sesión</a>
+                    <form class="form-inline">
+                       <input class="form-control mr-sm-2" type="search"  aria-label="Search">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+    </nav>
+
+    <!--formulario 1-->
+    
+    <div class="d-flex align-items-center h-100 marco1">
+        <div class="container shadow-lg p-3 mt-5 w-50 bg-light rounded" >
+            <form>
+      
+              <div class="form-group">
+                  <label for="Nombre" class="control-label">Nombre</label>
+                  <input type="text" class="form-control cuadros" id="Nombre" name="Nombre" placeholder="Nombre" required>
+              </div>    
+          
+              <div class="form-group"> 
+                  <label for="Apellido" class="control-label">Apellido</label>
+                  <input type="text" class="form-control cuadros" id="Apellido" name="Apellido" placeholder="Apellido" required>
+              </div>                    
+                                      
+              <div class="form-group"> 
+                  <label for="email" class="control-label">Correo electrónico</label>
+                  <input type="email" class="form-control cuadros" id="email" name="correo electronico" placeholder="Correo electrónico" required>
+              </div>    
+          
+              <div class="form-group">
+                  <label for="contraseña" class="control-label">Contraseña</label>
+                  <input type="password" class="form-control cuadros" id="contraseña" name="Contraseña" placeholder="Contraseña" required>
+              </div>   
+              
+              <div class="form-group">
+                <label for="contraseña2" class="control-label">Verificar contraseña</label>
+                <input type="password" class="form-control cuadros" id="contraseña2" name="Contraseña2" placeholder="Verificar contraseña" required> 
+            </div> 
+                                      
+              <div class="form-group">
+                  <label for="course" class="control-label">Curso</label>
+                  <select class="form-control cuadros" id="course">
+                      <option value="AL">Word</option>
+                      <option value="AK">Excel</option>
+                      <option value="AZ">Power Point</option>
+                      <option value="AW">Outlook</option>
+                      <option value="AR">Todos</option>
+                  </select>                    
+              </div>
+                      
+              <div class="form-group"> <!-- Siguiente -->
+                  <button type="submit" class="btn btn-primary boton1">Siguiente</button>
+              </div>     
+              
+          </form>
+          </div>
+    </div>
+
+ <!--Redes Sociales-->
+ <!--Redes Sociales-->
+ <div class="social">
+    <ul>
+        <li><a href="https://www.facebook.com/" target="-blank" class="icon-facebook"></a></li>
+        <li><a href="https://twitter.com/" class="icon-twitter"></a></li>
+        <li><a href="https://github.com/" class="icon-github"></a></li>
+        <li><a href="https://web.whatsapp.com/" class="icon-whatsapp"></a></li>
+        <li><a href="https://www.youtube.com/" class="icon-youtube"></a></li>
+        <li><a href="https://co.linkedin.com/" class="icon-linkedin"></a></li>
+        <li><a href="https://www.instagram.com/" class="icon-instagram"></a></li>
+    </ul>
+  </div>
+
+  <!--Forma de pago-->
+
+  <html lang="en">
+
+    <body class="bg-light">
+   
+      
+      
+  <div class="container">
+    <main>
+  
+  
+          <div class="container shadow-lg p-3 mt-5 w-75 bg-light rounded" >
+      
+      <div class="row g-5">
+        <div class="col-md-2 col-lg-10 order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Elige Tu Curso</span>
+            
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-s">
+              <div>
+                <h6 class="my-0">Office</h6>
+                <small class="text-muted">Excel, word, Power point</small>
+              </div>
+              <span class="text-muted"></label> $99.000<input type="checkbox"></span>
+              
+              
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Musica</h6>
+                <small class="text-muted">Piano, Guitarra, Flauta</small>
+              </div>
+              <span class="text-muted">$79.000<input type="checkbox"></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Idiomas</h6>
+                <small class="text-muted">Ingles, Español, Franses, Aleman</small>
+              </div>
+              <span class="text-muted">$89.000<input type="checkbox"></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Codigo Pormocional</h6>
+                <small>Fourelements</small>
+              </div>
+              <span class="text-success">−$10.000</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$267.000</strong>
+            </li>
+          </ul>
+     
+  
+  
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <button type="submit" class="btn btn-secondary">Reclamar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="container shadow-lg p-2 mt-5 w-75 bg-light rounded" >
+            <hr class="my-4">
+  
+            <h4 class="mb-3">Pago</h4>
+  
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credit">Targeta de credito</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debit">Targeta Debito</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">Nequi</label>
+              </div>
+            </div>
+  
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <label for="cc-name" class="form-label">Nonbre de la tarjeta</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Nombre Completo</small>
+                <div class="invalid-feedback">
+                  Nombre de la tarjeta es requerido
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="cc-number" class="form-label">Numero de Tarjeta</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Numero de la tarjeta es requerido
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="cc-expiration" class="form-label">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Expiracion de la tarjeta
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="cc-cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-4">
+  
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Continuar con el pago</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  
+    
+  </div>
+  </div>
+  
+  
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  
+        <script src="form-validation.js"></script>
+    </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<div class="footer mt-5">
+    <footer>
+        Derechos reservados &copy; 2021 &nbsp;  Diseñado por: TheFourElements &nbsp; Correo: thefourelements@gmail.com &nbsp;  www.thefourelements.com.co
+    </footer>    
+</div>
+    
+
+   
+<!--Chatbot-->
+<script src="https://fobi.io/embed.js"></script>
+<div id="embed-fobi"  data-fobi-id="zhC28j5" data-bot-title= "Chat" data-hd-bg= "#2980B9" data-hd-ti-clr= "#FFF" data-ct-pm= "#6679E6" data-ct-sc= "#B1F5F3" data-ct-bot-img= "https://fobi.io/head.png" data-btn-offset= "Right: 30px" data-cb-offset= "Right: 30px" data-btn-img= "https://fobi.io/icon.png" data-btn-bg= "#2980B9" data-cb-height= "400px" data-cb-width= "330px" ></div>   
+ 
+<!--Scritp Java Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+
+</body>
+</html> 
